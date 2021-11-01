@@ -1,7 +1,7 @@
 import React from "react";
 import CoinRow from "./CoinRow";
 
-const titles = ["#", "Asset", "Price", "Price Change", "Market Cap"];
+const titles = ["#", "Asset", "Symbol", "Price (USD)", "Price Change (%)", "Market Cap (M)"];
 
 const TableCoins = ({ coins }) => {
   console.log(coins);

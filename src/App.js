@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"; //"hook" ejecuta funcion al cargar componente
 import './App.css';
-import axios from 'axios';
+import axios from 'axios'; // Promise-based client
 import TableCoins from "./components/TableCoins";
 
 function App() {
